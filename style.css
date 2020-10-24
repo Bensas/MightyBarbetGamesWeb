@@ -1,0 +1,87 @@
+#nav_center {
+        width: 275px /* need to found your width according to your entry*/
+    }
+.main-style{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	background: black;
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.download-button{
+	max-width:70%;
+	max-height: 70%; 
+}
+
+.divider{
+    position: relative;
+	padding: 0px;
+	background: black;
+	width: 100%;
+}
+
+.footer-content{
+	background: black;
+	text-align: center;
+	color: grey;
+}
+.banner{
+    position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.text{
+	background: black;
+	color: white;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 0px;
+}
+.left-align{
+	text-align: left;
+}
+h1{
+	margin-top: 0px;
+}
+a{
+	color: cyan;
+}
+@media screen and (max-width: 500px) {   
+	.mighty-barbet-banner{
+		max-width: 100%;
+		max-height: 100%;
+		text-align: center;
+		content:url("mighty-barbet-banner-small.png")
+	}
+	.line-mayhem-banner{
+		content:url("line-mayhem-banner-small.png");
+		max-width: 100%;
+		max-height: 100%;
+		text-align: center;
+	}
+	.light-rush-banner{
+		content:url("light-rush-banner-small.png");
+		max-width: 100%;
+		max-height: 100%;
+		text-align: center;
+	}
+	.space-joust-banner{
+		content:url("space-joust-banner-small.png");
+		max-width: 100%;
+		max-height: 100%;
+		text-align: center;
+	}
+	.text{
+	background: black;
+	color: white;
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 0px;
+}
+}
